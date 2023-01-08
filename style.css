@@ -588,9 +588,8 @@ header {
         justify-content: space-around;
         gap: 40px;
         flex-wrap: wrap;
+        min-height: 100vh;
         line-height: 1.6;
-        padding-right: 3em;
-        padding-left: 11rem;
         background-color: #041e3d;
     }
     .card_1,
@@ -607,7 +606,7 @@ header {
         padding: 10rem 0 0;
         max-width: 35ch;
         background-repeat: no-repeat;
-        height: 55%;
+        height: 75%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
