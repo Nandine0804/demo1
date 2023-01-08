@@ -582,15 +582,17 @@ header {
     color: orangered;
 }
 
-@media screen and (max-width: 1570px) {
+@media screen and (max-width: 1610px) {
     body {
         display: flex;
-        justify-content: space-around;
         gap: 40px;
         flex-wrap: wrap;
-        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        max-width: 30vw;
         line-height: 1.6;
         background-color: #041e3d;
+        overflow-x: hidden;
     }
     .card_1,
     .card_2,
@@ -603,14 +605,15 @@ header {
         display: flex;
         flex-wrap: wrap;
         color: white;
-        padding: 10rem 0 0;
-        max-width: 35ch;
+        padding: 3rem 0 0;
+        max-width: 32ch;
         background-repeat: no-repeat;
-        height: 55%;
+        height: 50%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
-        margin: 50px 50px;
+        margin: 50px 0px;
+        vertical-align: middle;
     }
     .card_1:hover .card_title::after {
         transform: scale(1.05);
@@ -823,11 +826,10 @@ header {
         display: flex;
         justify-content: space-around;
         gap: 20px;
+        max-width: 80vw;
         flex-wrap: wrap;
-        min-height: 100vh;
-        padding-left: 0.6rem;
-        margin-left: 50px;
         line-height: 1.6;
+        margin-left: 10px;
         background-color: #041e3d;
     }
     .card_1,
@@ -841,14 +843,15 @@ header {
         display: flex;
         flex-wrap: wrap;
         color: white;
-        padding: 10rem 0 0;
-        max-width: 35ch;
+        padding: 2rem 0 0;
+        max-width: 27ch;
         background-repeat: no-repeat;
-        height: 50%;
+        height: 45%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
-        margin: 50px 50px;
+        margin: 40px 30px;
+        vertical-align: middle;
     }
     .card_1:hover .card_title::after {
         transform: scale(1.05);
@@ -905,7 +908,7 @@ header {
         gap: 20px;
         flex-wrap: wrap;
         margin-right: 25px;
-        min-width: 76vw;
+        max-width: 88vw;
         line-height: 1.6;
         background-color: #041e3d;
     }
@@ -920,10 +923,10 @@ header {
         display: flex;
         flex-wrap: wrap;
         color: white;
-        padding: 10rem 0 0;
+        padding: 4rem 0 0;
         max-width: 35ch;
         background-repeat: no-repeat;
-        height: 40%;
+        height: 56%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
@@ -934,11 +937,11 @@ header {
     }
     .card_content {
         padding: 1.1rem;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         border-radius: 0px 0px 20px 20px;
         box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
         backdrop-filter: saturate(180%) blur(10px);
-        transform: translateY(50%);
+        transform: translateY(70%);
         transition: transform 500ms ease-in-out;
     }
     .card_1:hover .card_content {
@@ -983,7 +986,7 @@ header {
         justify-content: space-around;
         gap: 20px;
         flex-wrap: wrap;
-        min-width: 60vw;
+        max-width: 60vw;
         line-height: 1.6;
         background-color: #041e3d;
     }
@@ -1001,7 +1004,7 @@ header {
         padding: 6rem 0 0;
         max-width: 30ch;
         background-repeat: no-repeat;
-        height: 55%;
+        height: 48%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
@@ -1016,7 +1019,7 @@ header {
         border-radius: 0px 0px 20px 20px;
         box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
         backdrop-filter: saturate(180%) blur(10px);
-        transform: translateY(70%);
+        transform: translateY(65%);
         transition: transform 500ms ease-in-out;
     }
     .card_1:hover .card_content {
@@ -1060,8 +1063,9 @@ header {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        min-width: 80vw;
+        max-width: 80vw;
         line-height: 1.6;
+        margin-left: 45px;
         background-color: #041e3d;
     }
     .card_1,
@@ -1075,14 +1079,14 @@ header {
         display: flex;
         flex-wrap: wrap;
         color: white;
-        padding: 6rem 0 0;
+        padding: 3rem 0 0;
         max-width: 35ch;
         background-repeat: no-repeat;
-        height: 55%;
+        height: 40%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
-        margin: 40px 25px;
+        margin: 40px 30px;
     }
     .card_1:hover .card_title::after {
         transform: scale(1.05);
@@ -1137,9 +1141,9 @@ header {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        min-width: 80vw;
+        max-width: 80vw;
         line-height: 1.6;
-        margin-left: 46px;
+        margin-left: 50px;
         background-color: #041e3d;
     }
     .card_1,
@@ -1151,12 +1155,13 @@ header {
     .card_7,
     .card_8 {
         display: flex;
+        vertical-align: middle;
         flex-wrap: wrap;
         color: white;
-        padding: 6rem 0 0;
+        padding: 3rem 0 0;
         max-width: 80ch;
         background-repeat: no-repeat;
-        height: 35%;
+        height: 49%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
@@ -1215,7 +1220,7 @@ header {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        min-width: 50vw;
+        max-width: 80vw;
         line-height: 1.6;
         background-color: #041e3d;
         overflow-x: hidden;
@@ -1231,14 +1236,14 @@ header {
         display: flex;
         flex-wrap: wrap;
         color: white;
-        padding: 6rem 0 0;
+        padding: 2rem 0 0;
         max-width: 27ch;
         background-repeat: no-repeat;
-        height: 50%;
+        height: 40%;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
-        margin: 50px 0px;
+        margin: 30px 0px;
     }
     .card_1:hover .card_title::after {
         transform: scale(1.05);
@@ -1249,85 +1254,7 @@ header {
         border-radius: 0px 0px 20px 20px;
         box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
         backdrop-filter: saturate(180%) blur(10px);
-        transform: translateY(70%);
-        transition: transform 500ms ease-in-out;
-    }
-    .card_1:hover .card_content {
-        transform: translateY(0);
-        transition-delay: 500ms;
-    }
-    .card_content p {
-        margin-top: 10px;
-        transition: transform 500ms ease-in-out;
-        transition: all 1s ease-in-out;
-    }
-    .card_content>*:not(.card_title) {
-        opacity: 0;
-        transition: opacity 500ms ease-in-out;
-    }
-    .card_1:hover .card_content>* {
-        opacity: 1;
-    }
-    .card_title {
-        position: relative;
-    }
-    .card_title::after {
-        content: "";
-        position: absolute;
-        height: 1px;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background: orangered;
-        padding: 1px;
-        transform: scaleX(0);
-        transition: transform 500ms ease-in-out;
-    }
-    .card_1:hover .card_title::after {
-        transform: scaleX(1);
-    }
-}
-
-@media screen and (max-width: 400px) {
-    body {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        min-width: 100vw;
-        line-height: 1.6;
-        margin-left: 40px;
-        background-color: #041e3d;
-    }
-    .card_1,
-    .card_2,
-    .card_3,
-    .card_4,
-    .card_5,
-    .card_6,
-    .card_7,
-    .card_8 {
-        display: flex;
-        flex-wrap: wrap;
-        color: white;
-        padding: 6rem 0 0;
-        max-width: 80ch;
-        background-repeat: no-repeat;
-        height: 60%;
-        border-radius: 20px;
-        box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-        margin-bottom: 20px;
-        margin: 50px 40px;
-    }
-    .card_1:hover .card_title::after {
-        transform: scale(1.05);
-    }
-    .card_content {
-        padding: 1rem;
-        font-size: 0.7rem;
-        border-radius: 0px 0px 20px 20px;
-        box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
-        backdrop-filter: saturate(180%) blur(10px);
-        transform: translateY(70%);
+        transform: translateY(80%);
         transition: transform 500ms ease-in-out;
     }
     .card_1:hover .card_content {
@@ -1374,7 +1301,7 @@ header {
         line-height: 1.6;
         background-color: #041e3d;
         overflow-x: hidden;
-        margin-left: 10px;
+        margin-left: 45px;
     }
     .card_1,
     .card_2,
@@ -1449,7 +1376,7 @@ header {
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-        min-width: 100vw;
+        max-width: 80vw;
         line-height: 1.6;
         margin-left: 60px;
         background-color: #041e3d;
@@ -1551,7 +1478,7 @@ header {
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
-        margin: 50px 40px;
+        margin: 50px 20px;
     }
     .card_1:hover .card_title::after {
         transform: scale(1.05);
@@ -1701,10 +1628,10 @@ header {
         display: flex;
         flex-wrap: wrap;
         color: white;
-        padding: 6rem 0 0;
+        padding: 2rem 0 0;
         max-width: 23ch;
         background-repeat: no-repeat;
-        height: 59%;
+        height: 40%;
         width: max-content;
         border-radius: 20px;
         box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
@@ -1720,7 +1647,7 @@ header {
         border-radius: 0px 0px 20px 20px;
         box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
         backdrop-filter: saturate(180%) blur(10px);
-        transform: translateY(50%);
+        transform: translateY(80%);
         transition: transform 500ms ease-in-out;
     }
     .card_1:hover .card_content {
